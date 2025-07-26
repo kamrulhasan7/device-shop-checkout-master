@@ -1,18 +1,18 @@
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Checkout Page} | devChallenges</h1>
+<h1 align="center">Checkout Page | devChallenges</h1>
 
 <div align="center">
-   Solution for a challenge <a href="https://devchallenges.io/challenge/apple-shop-checkout-page-challenge" target="_blank">Device Shop Checkout</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
+   Solution for a challenge <a href="https://github.com/kamrulhasan7/device-shop-checkout-master" target="_blank">Device Shop Checkout</a> from <a href="http://devchallenges.io" target="_blank">devChallenges.io</a>.
 </div>
 
 <div align="center">
   <h3>
-    <a href="{https://your-demo-link.your-domain}">
+    <a href="https://kamrulhasan7.github.io/device-shop-checkout-master/">
       Demo
     </a>
     <span> | </span>
-    <a href="{https://your-url-to-the-solution}">
+    <a href="https://github.com/kamrulhasan7/device-shop-checkout-master">
       Solution
     </a>
     <span> | </span>
@@ -49,7 +49,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 ### What I learned
 
-<!-- Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge. -->
+Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
 
 ### Useful resources
 
@@ -73,9 +73,8 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
+This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale
 
 ## Author
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@kamrulhasan7](https://{github.com/your-usermame})
+- GitHub [@kamrulhasan7](https://github.com/kamrulhasan7)
