@@ -65,14 +65,9 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
 - [Tailwind](https://tailwindcss.com/)
 
-## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges-dashboard) challenge.
 
@@ -83,4 +78,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Author
 
 - Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
+- GitHub [@kamrulhasan7](https://{github.com/your-usermame})

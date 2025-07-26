@@ -21,111 +21,157 @@
 
 <body class="font-[Poppins] h-screen bg-[#F3F4F6]">
 
-<header class="h-[30%] w-full bg-[url(./resources/background-image@2x.png)] bg-cover bg-no-repeat text-white text-center flex items-start justify-center">
-  <h1 class="text-2xl font-bold mt-10">Checkout</h1> 
-  <span class="bg-black px-2 py-1 mt-10 rounded-4xl ml-5">3 items</span>
-</header>
+  <header
+    class="h-[30%] w-full bg-[url(./resources/background-image@2x.png)] bg-cover bg-no-repeat text-white text-center flex items-start justify-center">
+    <h1 class="text-2xl font-bold mt-10">Checkout</h1>
+    <span class="bg-black px-2 py-1 mt-10 rounded-4xl ml-5">3 items</span>
+  </header>
 
-<!-- main section -->
- <main class="w-[95%] rounded-2xl overflow-hidden flex mx-auto">
+  <!-- main section -->
+  <main class="w-[95%] rounded-2xl overflow-hidden flex flex-col md:flex-row mx-auto -my-24">
 
-  <!-- product list  -->
-   <div class="bg-[#D2D5DA] basis-1/2 p-8">
+    <!-- product list  -->
+    <div class="bg-[#D2D5DA] basis-1/2 p-8">
 
-    <ul>
-      <li class="flex ">
-        <!-- list image -->
-        <div class="basis-1/5 flex items-center justify-center bg-white rounded-lg p">
-          <img src="./resources/Gold.png" alt="">
-        </div>
+      <ul class="space-y-8 border-b-1 border-[#E5E7EB] pb-8">
 
-        <!-- list content -->
-        <div>
-
-          <!-- list name and price -->
-          <div>
-            <h2>iPhone 12Pro Max <br> <span>Golden</span></h2>
-            <h2>$999.00</h2>
+        <!-- list 1 -->
+        <li class="flex gap-5 justify-between items-center">
+          <!-- list image -->
+          <div class="basis-[20%] flex items-center justify-center bg-white rounded-lg py-2 px-6 h-[95px]">
+            <img src="./resources/Gold.png" alt="">
           </div>
 
-          <!-- list quantity -->
-          <div>
-            <p>1</p>
-            <p>⨉</p>
+          <!-- list content -->
+          <div class="basis-[70%] space-y-7">
+
+            <!-- list name and price -->
+            <div class="flex items-start justify-between">
+              <h2 class="text-xl font-semibold">iPhone 12Pro Max <br> <span
+                  class="font-normal text-[#394150] text-lg">Golden</span></h2>
+              <h2 class="text-xl font-semibold">$999.00</h2>
+            </div>
+
+            <!-- list quantity -->
+            <div class="flex items-center justify-between">
+              <p class="text-lg text-[#394150] font-normal">×1</p>
+              <p class="text-lg text-[#394150] font-normal">⨉</p>
+            </div>
+
+          </div>
+        </li>
+
+        <!-- list 2 -->
+
+        <li class="flex gap-5 justify-between items-center">
+          <!-- list image -->
+          <div class="basis-[20%] flex items-center justify-center bg-white rounded-lg py-2 px-6 h-[95px]">
+            <img src="./resources/Apple-watchx2.png" alt="">
           </div>
 
+          <!-- list content -->
+          <div class="basis-[70%] space-y-7">
+
+            <!-- list name and price -->
+            <div class="flex items-start justify-between">
+              <h2 class="text-xl font-semibold">Apple Watch <br> <span
+                  class="font-normal text-[#394150] text-lg">Blue</span></h2>
+              <h2 class="text-xl font-semibold">$399.00</h2>
+            </div>
+
+            <!-- list quantity -->
+            <div class="flex items-center justify-between">
+              <p class="text-lg text-[#394150] font-normal">×1</p>
+              <p class="text-lg text-[#394150] font-normal">⨉</p>
+            </div>
+
+          </div>
+        </li>
+        <!-- list 3 -->
+        <li class="flex gap-5 justify-between items-center">
+          <!-- list image -->
+          <div class="basis-[20%] flex items-center justify-center bg-white rounded-lg h-[95px] py-2 px-6">
+            <img src="./resources/iMac@2x.png" alt="">
+          </div>
+
+          <!-- list content -->
+          <div class="basis-[70%] space-y-7">
+
+            <!-- list name and price -->
+            <div class="flex items-start justify-between">
+              <h2 class="text-xl font-semibold">iMac  <br> <span
+                  class="font-normal text-[#394150] text-lg">Green</span></h2>
+              <h2 class="text-xl font-semibold">$1199.00</h2>
+            </div>
+
+            <!-- list quantity -->
+            <div class="flex items-center justify-between">
+              <p class="text-lg text-[#394150] font-normal">×1</p>
+              <p class="text-lg text-[#394150] font-normal">⨉</p>
+            </div>
+
+          </div>
+        </li>
+      </ul>
+
+      <!-- coupon -->
+      <form class="flex gap-2 mt-8 text-center" action=""  >
+        <input class="p-4 bg-white rounded-lg basis-[80%] outline-none outline-none" type="text" placeholder="Enter Coupon Code">
+        <button class="p-4 bg-black text-white w-[180px] rounded-lg cursor-pointer">Apply Coupon</button>
+      </form>
+
+      <!-- total amount  -->
+      <div class="mt-8 space-y-2">
+        <div class="flex items-center justify-between">
+          <h2 class="text-xl font-medium text-[#394150]">Sub Total</h2>
+          <h2 class="text-xl font-medium text-[#394150]">$2597.00</h2>
         </div>
-      </li>
-    </ul>
-   </div>
+        <div class="flex items-center justify-between">
+          <h2 class="text-xl font-medium text-[#394150]">Tax</h2>
+          <h2 class="text-xl font-medium text-[#394150]">$623.28</h2>
+        </div>
+        <div class="flex items-center justify-between">
+          <h2 class="text-xl font-medium">Total</h2>
+          <h2 class="text-xl font-medium">$3220.28</h2>
+        </div>
+      </div>
+    </div>
 
- </main>
-  <!--     
-    
-    
-    
-    
-    iPhone 12 Pro
-    
-    Golden
-    
-    $999.00
-    
-    x 1
-    
-    Apple Watch
-    
-    Blue
-    
-    $399.00
-    
-    iMac
-    
-    Green
-    
-    $1199.00
-    
-    Enter coupon code
-    
-    Apply Coupon
-    
-    Sub total
-    
-    $2597.00
-    
-    Tax
-    
-    $623.28
-    
-    Total
-    
-    $3220.28
-    
-    Contact Information
-    
-    First & Last name
-    
-    Enter first & last name
-    
-    Email Address
-    
-    Enter email address
-    
-    Country
-    
-    Finland
-    
-    Postal Code
-    
-    00270
-    
-    Continue
-     -->
+    <!-- contact form -->
+     <div class="bg-white basis-1/2 p-8">
+        <h2 class="text-2xl font-semibold text-[#1D1D1F] mb-5">Contact Information</h2>
+        <form class="flex flex-col" action="" >
+          <label class="font-semibold text-xl text-[#394150] mb-1.5" for="name">First & Last name</label>
+          <input class="py-5 px-4 bg-[#E5E7EB] border-[#D2D5DA] border-2 rounded-lg text-lg text-[#394150] outline-none mb-8" type="text" id="name" placeholder="Enter first & last name">
 
-  <div class="author-info">
-    Coded by <a href="#">Your Name Here</a> | Challenge by
-    <a href="https://www.devchallenges.io?ref=challenge" target="_blank">devChallenges.io</a>.
-  </div>
+          <label class="font-semibold text-xl text-[#394150] mb-1.5" for="email">Email Address</label>
+          <input class="py-5 px-4 bg-[#E5E7EB] border-[#D2D5DA] border-2 rounded-lg text-lg text-[#394150] outline-none mb-8" type="email" id="email" placeholder="Enter email address">
+
+          <div class="flex gap-4">
+
+<div class="w-1/2 flex flex-col">
+            <label class="font-semibold text-xl text-[#394150] mb-1.5" for="country">Country</label>
+          <select class="py-5 px-4 bg-[#E5E7EB] border-[#D2D5DA] border-2 rounded-lg text-lg text-[#394150] outline-none mb-7" name="country" id="country">
+            <option value="bangladesh">Bangladesh</option>
+            <option value="bangladesh">India</option>
+            <option value="bangladesh">Pakistan</option>
+            <option value="bangladesh">Soudi Arab</option>
+          </select>
+          </div>
+
+          <div class="w-1/2 flex flex-col">
+          <label class="font-semibold text-xl text-[#394150] mb-1.5" for="postal">Postal Code</label>
+          <input class="py-5 px-4 bg-[#E5E7EB] border-[#D2D5DA] border-2 rounded-lg text-lg text-[#394150] outline-none mb-7 basis-1/2" type="text" id="postal" placeholder="00270">
+          </div>
+
+          </div>
+
+          <button class="text-[#E5E7EB] font-semibold bg-[#1D1D1F] rounded-lg p-5 cursor-pointer">Continue</button>
+        </form>
+     </div>
+
+  </main>
+  
 </body>
 
 </html>
